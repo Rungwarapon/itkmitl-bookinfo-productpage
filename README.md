@@ -20,3 +20,10 @@ docker run -d --name productpage -p 8083:9080 -e ENABLE_EXTERNAL_BOOK_SERVICE=tr
 ```
 
 * Test with path index page.
+
+
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
