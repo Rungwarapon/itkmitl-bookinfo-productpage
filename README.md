@@ -25,5 +25,9 @@ docker run -d --name productpage -p 8083:9080 -e ENABLE_EXTERNAL_BOOK_SERVICE=tr
 ## How to run with Docker Compose
 
 ```bash
+# Build Docker Image for productpage service
+docker-compose build
+
+# Run productpage service on port 8083
 docker-compose up
 ```
